@@ -37,7 +37,7 @@ const dateFormat = require("dateformat");
 var table = require("table").table;
 const Discord = require("discord.js");
 const cmd = require("node-cmd");
-const prefix = "s!";
+const prefix = "v!";
 const cooldown = new Set();
 const cdtime = 5;
 ///////////////////////////////////////////////////////////////////////////////
@@ -66,7 +66,7 @@ calli.on("message", message => {
   }
 });
 ///////////////////////////////////////////////////////////////////////////////
-calli.login("")
+calli.login("ODY2MjE1NjU5MDkyMTgwOTky.YPPUMg.V6OCt2sHdJvW-15NaEmSFdxZI8s")
 ///////////////////////////////////////////////////////////////////////////////
 const callienabled  = "";
 const callidisabled = "";
@@ -129,7 +129,7 @@ calli.on("message", async message => {
 \`${prefix}punishment\`
 
 **Links**
-[Support](https://discord.gg/2XfWseYDWJ) - [Invite](https://discord.com/api/oauth2/authorize?client_id=${calli.user.id}&permissions=8&scope=bot) - [Website](https://security-bot4415.glitch.me/)
+[Support](https://discord.gg/9qBvN4DhT5) - [Invite](https://discord.com/api/oauth2/authorize?client_id=866215659092180992&permissions=8&scope=bot) - [Website](/)
       
       
       `);
@@ -542,7 +542,7 @@ aprofessional moderation & security bot that can security your server
 **report a problem**
 If there is, you can always join the support server by type ${prefix}support. or DM a Developer. Developers you can message include Calli#0001
 **Extra Links**
-[Support](https://discord.gg/2XfWseYDWJ) - [Invite](https://discord.com/api/oauth2/authorize?client_id=${calli.user.id}&permissions=8&scope=bot) - [Website](https://security-bot4415.glitch.me/)`);
+[Support](https://discord.gg/9qBvN4DhT5) - [Invite](https://discord.com/api/oauth2/authorize?client_id=866215659092180992&permissions=8&scope=bot) - [Website](/)`);
 
     message.channel.send(help);
   }
