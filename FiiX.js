@@ -57,7 +57,7 @@ calli.on("message", message => {
       .setImage(`https://media.discordapp.net/attachments/829751738717306920/835146132023279616/image0.png`)
       .setDescription(`
 👑 OwnerCode 
-(Calli#0001,AMxSakran^#3799)
+(ᖴ𝗂𝗂᙭#9480,AMxSakran^#3799)
 🤖 Securitybots 
 (Anti Vandalism#6064)
       `)
@@ -66,16 +66,16 @@ calli.on("message", message => {
   }
 });
 ///////////////////////////////////////////////////////////////////////////////
-calli.login("ODY2MjE1NjU5MDkyMTgwOTky.YPPUMg.V6OCt2sHdJvW-15NaEmSFdxZI8s")
+calli.login("تــــــۆکــیــن لێرە دانێ")
 ///////////////////////////////////////////////////////////////////////////////
-const callienabled  = "";
-const callidisabled = "";
-const callifalse    = "";
-const callitrue     = "";
-const callicolor    = "";
-const calliimgae    = "";
-const calliban      = "";                                                                                                                                                                             const securitybots = "Anti Vandalism#6064";
-const calliwarn     = "";                                                                                                                                                                             const callidevelopers = "731952429238714378"; const calliowner = "731952429238714378";
+const FiiXenabled  = "";
+const FiiXdisabled = "";
+const FiiXfalse    = "";
+const FiiXtrue     = "";
+const FiiXcolor    = "";
+const FiiXimgae    = "";
+const FiiXban      = "";                                                                                                                                                                             const securitybots = "Anti Vandalism#6064";
+const FiiXwarn     = "";                                                                                                                                                                             const callidevelopers = "731952429238714378"; const calliowner = "731952429238714378";
 ///////////////////////////////////////////////////////////////////////////////
 calli.on("ready", () => {
   console.log(`${calli.user.tag}`);
@@ -84,7 +84,7 @@ calli.on("ready", () => {
   });
 });
 ///////////////////////////////////////////////////////////////////////////////
-calli.on("message", async message => {
+FiiX.on("message", async message => {
   if (message.content.startsWith(prefix + "help")) {
     if (cooldown.has(message.author.id)) {
       return message.channel.send(`You have to wait 5 seconds`).then(m => {
